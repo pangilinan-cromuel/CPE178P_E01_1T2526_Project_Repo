@@ -107,7 +107,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
 # ----------------------------
 # WebSocket Endpoint
 # ----------------------------
@@ -163,10 +162,10 @@ async def websocket_endpoint(websocket: WebSocket):
         logger.error(f"WebSocket error: {e}")
     finally:
         logger.info("WebSocket connection closed")
-
 # ----------------------------
 # Health Check Endpoint
 # ----------------------------
 @app.get("/")
 async def health_check():
     return {"status": "healthy", "model_loaded": True}
+
