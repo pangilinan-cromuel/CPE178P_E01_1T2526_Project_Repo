@@ -26,7 +26,8 @@ Execute the client script with:
 python client.py
 ```
 
-## 🖼️ Using the Flet GUI Once the Flet client window opens, you can interact with the application as follows: 
+## 🖼️ Using the Flet GUI 
+### Once the Flet client window opens, you can interact with the application as follows: 
 ### 1. Upload an Image 
 - Click the **Upload** button.
 - Select a facial image file in one of the supported formats: .jpg, .jpeg, .png.
