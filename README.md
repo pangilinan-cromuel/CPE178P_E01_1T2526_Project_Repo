@@ -41,7 +41,7 @@ python client.py
 
 ## 📝 Notes 
 1. Ensure the server is running before starting the client.
-2. The model file (best_model.pt) must be in the same directory as server.py.
+2. The model file (best_model.pth) must be in the same directory as server.py.
 3. If you encounter connection issues, check that both the client and server are using the same host and port (localhost:8000).
 4. Supported image formats for upload: .jpg, .jpeg, .png.
 
